@@ -1,0 +1,13 @@
+-Ejemplo de método Setter y método Getter
+public class Persona {
+    private String nombre;
+//Método Setter
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    // Método Getter
+    public String getNombre() {
+        return nombre;
+    }
+}
